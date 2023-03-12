@@ -1,10 +1,14 @@
-import Heading from "./components/Heading"
+import Heading from "./components/Heading";
+import Section from "./components/Section";
+import "./App.css";
 
 function App() {
-
   return (
-    <Heading title="Hello" />
-  )
+    <>
+      <Heading title="Hello" />
+      <Section>This is MySection</Section>
+    </>
+  );
 }
 
-export default App
+export default App;
